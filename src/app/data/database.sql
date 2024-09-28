@@ -1,8 +1,8 @@
--- Create the database
-CREATE DATABASE eats_in_reach_db;
+-- -- Create the database
+-- CREATE DATABASE eats_in_reach_db;
 
--- Connect to the newly created database
-\c eats_in_reach_db;
+-- -- Connect to the newly created database
+-- \c eats_in_reach_db;
 
 -- Create the Food_Types table (removed description column)
 CREATE TABLE Food_Types (

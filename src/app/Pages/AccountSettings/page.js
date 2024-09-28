@@ -184,13 +184,13 @@ export default function UserProfile() {
         </div>
         <div className=" bg-Yellow-Green  flex flex-col w-4/6 max-md:w-3/4 m-5 justify-center items-center rounded-lg p-2">
           <div className="flex justify-start mt-5 ">
-            <h1 className={`text-[3rem] font-semibold ${italiana.className}`}>
+            <h1 className={`text-[3rem] font-semibold text-center ${italiana.className}`}>
               {activeSection === "profile"
                 ? "Profile Settings"
                 : "Security Settings"}
             </h1>
           </div>
-          <div className=" bg-[#FDFBCE] flex flex-col justify-center items-center w-5/6 max-md:w-3/4 space-y-8 drop-shadow-md rounded-3xl p-2">
+          <div className=" bg-[#FDFBCE] flex flex-col justify-center items-center w-5/6 max-md:w-4/5 space-y-8 drop-shadow-md rounded-3xl p-2">
             {activeSection === "profile" ? (
               <>
                 <form

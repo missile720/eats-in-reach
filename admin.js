@@ -3,7 +3,7 @@ const admin = require('firebase-admin');
 const path = require('path');
 
 // Path to your service account key JSON file
-const serviceAccountPath = './<path of json file>'; // Use relative path if in the same folder
+const serviceAccountPath = './eats-in-reach-firebase-adminsdk-ei0jg-6429b0cde7.json'; // Use relative path if in the same folder
 
 // Initialize Firebase Admin SDK
 admin.initializeApp({
