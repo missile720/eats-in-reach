@@ -24,7 +24,7 @@ const InputField = ({ type, placeholder, value, onChange, required }) => (
   <input
     type={type}
     placeholder={placeholder}
-    className="outline-none pl-2 m-1 rounded-md"
+    className="outline-none pl-2 m-1 rounded-md w-full"
     value={value}
     onChange={onChange}
     required={required}
@@ -204,7 +204,7 @@ export default function UserProfile() {
                     value={newUsername}
                     onChange={(e) => setNewUsername(e.target.value)}
                   />
-                  <button className="bg-Yellow-Green outline-2 px-4 py-2 rounded-md mt-2 drop-shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-Dartmouth-green duration-300 hover:text-white">
+                  <button className="bg-Yellow-Green w-full outline-2 px-4 py-2 rounded-md mt-2 drop-shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-Dartmouth-green duration-300 hover:text-white">
                     Change
                   </button>
                 </form>
@@ -226,7 +226,7 @@ export default function UserProfile() {
                       value={currentPasswordEmail}
                       onChange={(e) => setCurrentPasswordEmail(e.target.value)}
                     />
-                    <button className="bg-Yellow-Green outline-2 px-4 py-2 rounded-md drop-shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-Dartmouth-green duration-300 hover:text-white">
+                    <button className="bg-Yellow-Green w-full outline-2 px-4 py-2 rounded-md drop-shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-Dartmouth-green duration-300 hover:text-white">
                       Change
                     </button>
                   </div>
@@ -249,7 +249,7 @@ export default function UserProfile() {
                       value={currentPassword}
                       onChange={(e) => setCurrentPassword(e.target.value)}
                     />
-                    <button className="bg-Yellow-Green outline-2 px-4 py-2 rounded-md drop-shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-Dartmouth-green hover:text-white duration-300">
+                    <button className="bg-Yellow-Green w-full outline-2 px-4 py-2 rounded-md drop-shadow-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-Dartmouth-green hover:text-white duration-300">
                       Change
                     </button>
                   </div>
