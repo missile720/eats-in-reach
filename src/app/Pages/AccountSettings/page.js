@@ -12,6 +12,7 @@ import {
   reauthenticateWithCredential,
 } from "firebase/auth";
 import { Italiana } from "next/font/google";
+import Footer from "@/Components/Footer";
 // Constants
 const SecurityIcon = "/images/security.png"; // Update the path to the security icon
 const SUCCESS_TIMEOUT = 3000;
@@ -264,6 +265,7 @@ export default function UserProfile() {
           </div>
         </div>
       </div>
+      <Footer/>
     </>
   );
 }
